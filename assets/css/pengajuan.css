@@ -1,0 +1,91 @@
+/* (Tetap gunakan kode CSS Sidebar yang sebelumnya sudah kita buat) */
+/* Tambahkan ini di bagian bawah untuk mendukung komponen Form */
+
+.card-form {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    max-width: 850px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--text-main);
+    font-size: 0.95rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    outline: none;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    background: #fcfcfc;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    background: #fff;
+    box-shadow: 0 0 0 4px var(--primary-soft);
+}
+
+/* Upload Style */
+.upload-dropzone {
+    border: 2px dashed var(--border);
+    padding: 30px;
+    text-align: center;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: #fafafa;
+}
+
+.upload-dropzone:hover {
+    border-color: var(--primary);
+    background: var(--primary-soft);
+}
+
+.upload-dropzone i {
+    color: var(--primary);
+    margin-bottom: 12px;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3);
+}
+
+#img-preview {
+    margin-top: 15px;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informasi Layanan - Sistem Pengajuan Fasilitas Desa</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container">
+            <span><i class="fas fa-university"></i> Sekolah Tinggi Teknologi Mandala Bandung</span>
+            <span><i class="fas fa-calendar-alt"></i> Tahun Akademik 2025</span>
+        </div>
+    </div>
+
+    <header id="navbar">
+        <div class="container navbar">
+            <div class="logo">
+                <i class="fas fa-map-marked-alt"></i>
+                <div class="logo-text">
+                    <span class="main-logo">SISFO-DESA</span>
+                    <span class="sub-logo">Pengajuan Fasilitas Warga</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#alur">Alur Layanan</a></li>
+                    <li><a href="login.php" class="btn-login-outline">Masuk Ke Sistem</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="beranda" class="hero-advanced">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+                <span class="badge">Inovasi Desa Digital 2025</span>
+                <h1>Membangun Desa Lebih Baik Melalui Transparansi Digital</h1>
+                <p>Sistem ini merupakan solusi modern untuk mempercepat penyampaian aspirasi dan kebutuhan fasilitas umum secara efisien.</p>
+                <div class="hero-actions">
+                    <a href="login.php" class="btn-primary">Mulai Pengajuan <i class="fas fa-arrow-right"></i></a>
+                    <a href="#tentang" class="btn-link">Pelajari Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Tentang Sistem</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+                    <p>Sistem ini dirancang sebagai jembatan komunikasi antara masyarakat dan perangkat desa.</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Monitoring status pengajuan secara real-time.</li>
+                        <li><i class="fas fa-check-circle"></i> Verifikasi laporan yang objektif oleh petugas.</li>
+                        <li><i class="fas fa-check-circle"></i> Rekapitulasi data otomatis untuk evaluasi desa.</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                        <h3>Masyarakat</h3>
+                        <p>Pengguna umum yang mengajukan fasilitas.</p>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                        <h3>Petugas Desa</h3>
+                        <p>Aparat desa pengelola administrasi.</p>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="500">
+                        <h3>Admin</h3>
+                        <p>Pemegang akses teknis penuh.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="alur" class="workflow-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Alur Kerja Sistem</h2>
+                <p>Proses transparan dari laporan hingga tindak lanjut</p>
+            </div>
+            <div class="workflow-steps">
+                <div class="step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-icon"><i class="fas fa-user-edit"></i></div>
+                    <h4>1. Pengajuan</h4>
+                    <p>Warga mengisi data laporan dan mengunggah dokumen pendukung.</p>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-icon"><i class="fas fa-tasks"></i></div>
+                    <h4>2. Verifikasi</h4>
+                    <p>Petugas melakukan pengecekan kelayakan laporan.</p>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-icon"><i class="fas fa-spinner"></i></div>
+                    <h4>3. Update Progres</h4>
+                    <p>Sistem memberikan informasi progres penanganan berkala.</p>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-icon"><i class="fas fa-file-alt"></i></div>
+                    <h4>4. Laporan Selesai</h4>
+                    <p>Admin merekap data sebagai bahan evaluasi desa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>...</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Inisialisasi AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: false, // Animasi berulang saat di-scroll ke atas/bawah
+            mirror: true
+        });
+
+        // Efek Navbar transparan ke solid saat scroll
+        window.onscroll = function() {
+            var nav = document.getElementById('navbar');
+            if (window.pageYOffset > 100) {
+                nav.classList.add("nav-scrolled");
+            } else {
+                nav.classList.remove("nav-scrolled");
+            }
+        };
+    </script>
+</body>
+</html>
